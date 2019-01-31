@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-31T06:55:56Z" name="Sanity_Must" finished-at="2019-01-31T06:55:56Z" duration-ms="35">
+    <groups>
+      <group name="sanity_must">
+        <method signature="DemoGroups.testCase_1()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" name="testCase_1" class="com.rohini.automation.DemoGroups"/>
+        <method signature="DemoGroups.testCase_2()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" name="testCase_2" class="com.rohini.automation.DemoGroups"/>
+      </group> <!-- sanity_must -->
+      <group name="sanity_if_time">
+        <method signature="DemoGroups.testCase_3()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" name="testCase_3" class="com.rohini.automation.DemoGroups"/>
+      </group> <!-- sanity_if_time -->
+    </groups>
+    <test started-at="2019-01-31T06:55:56Z" name="SHealth_Sanity_Must" finished-at="2019-01-31T06:55:56Z" duration-ms="35">
+      <class name="com.rohini.automation.DemoGroups">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="beforeClass" finished-at="2019-01-30T22:55:56Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="beforeMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase_1()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="testCase_1" finished-at="2019-01-30T22:55:56Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="afterMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="beforeMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase_2()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="testCase_2" finished-at="2019-01-30T22:55:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_2 -->
+        <test-method signature="testCase_3()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="testCase_3" finished-at="2019-01-30T22:55:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="afterMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="beforeMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.rohini.automation.DemoGroups@2e222612]" started-at="2019-01-30T22:55:56Z" name="afterMethod" finished-at="2019-01-30T22:55:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.rohini.automation.DemoGroups -->
+    </test> <!-- SHealth_Sanity_Must -->
+  </suite> <!-- Sanity_Must -->
+</testng-results>
