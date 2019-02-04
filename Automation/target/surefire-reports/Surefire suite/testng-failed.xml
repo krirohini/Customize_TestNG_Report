@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" junit="true" name="Failed suite [Surefire suite]" verbose="0">
-  <test name="Surefire test">
-    <classes>
-      <class name="com.rohini.automation.AppTest"/>
-    </classes>
-  </test> <!-- Surefire test -->
-</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Custom Emailable TestNG Report</title>
+</head>
+<body bgcolor="#E6E6FA">
+
+    <table border="1" color="black" cellpadding="10">
+      <tr><center><b>$TestNG_Custom_Report_Title$</b></center></tr>
+      <thead>
+        <tr>
+          <th>Test Name</th>
+          <th>Total Method</th>
+          <th>Passed #</th>
+          <th>Skipped #</th>
+          <th>Failed #</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Total Execution Time (hr:mn:ss:ms)</th>
+          <th>Included Groups</th>
+          <th>Excluded Groups</th>
+        </tr>
+       </thead> 
+       $Test_Case_Summary$
+    </table >
+    <p> </p>
+    <p style="text-align:center"> <b> Detailed Execution Information for Test Cases </b> </p>
+    <p> </p>
+    <table id="summary" border="1" color="black" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Class</th>
+          <th>Method</th>
+          <th>Start Time</th>
+          <th>Execution Time (hr:mn:ss:ms)</th>
+          <th>Exception Message</th>
+          <th>Screenshot</th>
+        </tr>
+      </thead> 
+      $Test_Case_Detail$
+    </table>
+
+
+
+
+
+
+</body>
+</html>

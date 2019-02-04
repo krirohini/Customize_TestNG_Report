@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sanity_Must">
-	<test name="SHealth_Sanity_Must">
 
+<suite name="All_Sanity_1">
+
+	<listeners>
+		<listener class-name="com.rohini.automation.CustomTestNGReporter" />
+	</listeners>
+	
+	<test name="SHealth_Sanity_Must">
 		<groups>
 			<run>
 				<include name="sanity_must" />
@@ -11,7 +16,8 @@
 		</groups>
 
 		<classes>
-			<class name="com.rohini.automation.DemoGroups"> </class>
+			<class name="com.rohini.automation.DemoGroups">
+			</class>
 		</classes>
 	</test>
 </suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All_Sanity_2]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.rohini.automation.CustomTestNGReporter"/>
+  </listeners>
+  <test name="SHealth_Sanity_Must">
+    <groups>
+      <run>
+        <include name="sanity_must"/>
+        <include name="sanity_if_time"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.rohini.automation.DemoGroups"/>
+    </classes>
+  </test> <!-- SHealth_Sanity_Must -->
+  <test name="SHealth_Sanity_Must(failed)">
+    <groups>
+      <run>
+        <include name="sanity_must"/>
+        <include name="sanity_if_time"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.rohini.automation.DemoGroups">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="testCase_4"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.rohini.automation.DemoGroups -->
+    </classes>
+  </test> <!-- SHealth_Sanity_Must(failed) -->
+</suite> <!-- Failed suite [All_Sanity_2] -->

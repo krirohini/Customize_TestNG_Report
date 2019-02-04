@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All_Sanity">
+
+	<suite-files>
+		<suite-file path="./suite_1.xml"></suite-file>
+		<suite-file path="./suite_2.xml"></suite-file>
+	</suite-files>
+
+	<listeners>
+		<listener
+			class-name="com.rohini.automation.CustomTestNGReporter" />
+	</listeners>
+
+	<test name="SHealth_Sanity">
+		
+		<classes>
+			<class name="com.rohini.automation.DemoGroups">
+			</class>
+		</classes>
+	</test>
+</suite>
+
+			
